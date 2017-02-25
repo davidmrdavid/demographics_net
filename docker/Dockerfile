@@ -58,3 +58,10 @@ ENV PATH $CAFFE_ROOT/build/tools:$PYCAFFE_ROOT:$PATH
 RUN echo "$CAFFE_ROOT/build/lib" >> /etc/ld.so.conf.d/caffe.conf && ldconfig
 
 WORKDIR /workspace
+
+# ======================== Installing Tensorflow  =============================
+# TODO: update this to tensorflow-gpu when running for GPU
+RUN pip install tensorflow 
+
+# ======================== Installing Keras ===================================
+RUN pip install keras
