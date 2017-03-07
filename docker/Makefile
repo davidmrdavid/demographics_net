@@ -5,4 +5,5 @@ enable_gui:
 build:
 	sudo docker build -t demographics_net_cpu .
 run:
-	sudo docker run -it demographics_net_cpu
+	sudo docker run -it -v="${PWD}/../src:/workspace/src" -p 8888:8888 demographics_net_cpu 
+

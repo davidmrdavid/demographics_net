@@ -65,3 +65,12 @@ RUN pip install tensorflow
 
 # ======================== Installing Keras ===================================
 RUN pip install keras
+
+# ======================== Installing Jupyter =================================
+RUN pip install jupyter
+
+# ======================== Installing VIM =====================================
+RUN apt-get update
+RUN apt-get install vim -y
+
+
