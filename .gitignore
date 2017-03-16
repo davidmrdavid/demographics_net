@@ -2,5 +2,8 @@ src/data/*
 *.DS_Store
 *.zip
 *.tar.gz
+*.pem
+*.key
+
 src/notebooks/.ipynb_checkpoints/*
 src/scripts/*
