@@ -4,6 +4,7 @@ src/data/*
 *.tar.gz
 *.pem
 *.key
+*.h5
 
 src/notebooks/.ipynb_checkpoints/*
 src/scripts/*
