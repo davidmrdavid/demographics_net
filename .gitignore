@@ -8,4 +8,5 @@ src/data/*
 *.json
 *.txt
 */.ipynb_checkpoints/*
+*.npy
 
