@@ -5,6 +5,7 @@ src/data/*
 *.pem
 *.key
 *.h5
+*.npy
 
 src/notebooks/.ipynb_checkpoints/*
 src/scripts/*
